@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  cmstate-operator-webhook:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-11-17T14:19:06.732381591-03:30"
+    dependencies:
+    - condition: cmstate-operator.enabled
+      name: cmstate-operator
+      repository: https://stollenaar.github.io/cm-injector-operator
+      version: 0.1.0
+    description: Helm chart for cmstate-operator-webhook
+    digest: e98bcc443b546dbe8cd3562adb48a60a6fe82fe5061f414b4a03af3c9479e567
+    name: cmstate-operator-webhook
+    urls:
+    - https://github.com/STollenaar/cmstate-webhook/releases/download/cmstate-operator-webhook-0.1.0/cmstate-operator-webhook-0.1.0.tgz/cmstate-operator-webhook-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-11-17T14:19:06.731458964-03:30"
