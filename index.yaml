@@ -3,16 +3,16 @@ entries:
   cmstate-operator-webhook:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-11-17T15:11:38.760970215-03:30"
+    created: "2023-11-17T19:29:45.082988108-03:30"
     dependencies:
     - condition: cmstate-operator.enabled
       name: cmstate-operator
       repository: https://stollenaar.github.io/cmstate-injector-operator
       version: 0.1.0
     description: Helm chart for cmstate-operator-webhook
-    digest: 29f37e2b1e7faf6e47aeb66ef444e68064f05e93d31e69c11181afc2d9c34c94
+    digest: 4ae79ee5e0f6398845a7d3b8aa6554e817a72e167ac66004d065183ed89c6776
     name: cmstate-operator-webhook
     urls:
     - https://github.com/STollenaar/cmstate-webhook/releases/download/cmstate-operator-webhook-0.1.0/cmstate-operator-webhook-0.1.0.tgz
     version: 0.1.0
-generated: "2023-11-17T15:11:38.757969941-03:30"
+generated: "2023-11-17T19:29:45.08163848-03:30"
